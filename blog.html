@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog section</title>
+    <link rel="stylesheet" href="css/styleblog.css">
+    <link rel="stylesheet" href="css/mediablog.css">
+     <!-- Font-awesome-cdn-link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- Jquery-link -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script>
+     $(document).ready(function () {
+         $(".bars-icon").click(function () {
+             $(".nav-main").slideToggle(800);
+         })
+     })
+ </script>
+</head>
+<body>
+     <!-- Navbar-Header-section -->
+     <section class="header-section">
+        <div class="header-main-div">
+            <div class="header-div-1">
+              
+                <div class="header-1-sub-div-1">
+                    <p class="header-para-1">Help & Support </p>
+                    <p class="header-1-para-1"> Payment method </p>
+                </div>
+                <div class="header-1-sub-div-2">
+                    <p class="header-para-2">Free delivery for all orders over order your food now !</p>
+                </div>
+                <div class="header-1-sub-div-3">
+                    <p class="header-para-3">
+                        Email now :
+                        demo@demo.com
+                    </p>
+                </div>
+            </div>
+            <div class="header-div-2">
+                <div class="header-2-sub-div-1">
+                    <img src="images/logo.avif" alt="" class="nav-logo">
+
+                </div>
+                <div class="header-2-sub-div-2">
+                    <form action="" class="form-main">
+                        <input type="email" name="" id="form-group" placeholder="Find our search">
+                        <button class="form-btn"><i class="fa-solid fa-magnifying-glass search-icon"></i></button>
+                    </form>
+
+                </div>
+                <div class="header-2-sub-div-3">
+                    <i class="fa-solid fa-phone-volume help-line-icon"></i>
+                    Helpline number :
+                    <span class="numbers">+92 123 456 7890</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="hr-line">
+    <!-- Navbar-section -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <i class="fa-solid fa-bars bars-icon"></i>
+            <ul class="nav-main" class="form-main">
+                <li><a href="index.html">Home</a>
+                <li>
+                <li><a  href="about.html">About us</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a class=" nav-link active"  href="blog.html">Blogs</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+            <div class="nav-link-icons">
+                <div class="link-div-1">
+                    <i class="fa-regular fa-user"></i>
+                    <p class="link-para-1">
+                        Log & Register
+                    </p>
+                </div>
+                <div class="link-div-2">
+                    <i class="fa-regular fa-heart"></i>
+                    <p class="link-para-2">My wishlist (0)</p>
+                </div>
+                <div class="link-div-3">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="link-para-3">My cart (0)</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Blog section -->
+    <section class="blog">
+        <h1 class="blog-head">Our Blogs</h1>
+        <p class="blog-para"><a class="blog-a-para" href="index.html">Home|Blogs
+            </a></p>
+    </section>
+    <!-- Blog-section-1 -->
+    <section class="blog-section-1">
+        <div class="blog-section-1-container">
+            <div class="blog-1-div-1">
+                <img src="images/blog-img-2.jpg" alt="" class="blog-img-1">
+                <h4 class="blog-head-1">Shop For Groceries</h4>
+                <p class="blog-para-1"> July 16, 2023 </p>
+                <p class="blog-para-1-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit nemo
+                    voluptatibus delectus! Amet ullam non voluptate autem! Ad et amet laboriosam Omnis alias, amet nihil
+                    dolor explicabo ea aliquam...</p>
+                <button class="blog-btn-1">Read more</button>
+            </div>
+            <div class="blog-1-div-2">
+                <img src="images/blog-img-3.jpg" alt="" class="blog-img-2">
+                <h4 class="blog-head-2">Tasty Fruits & Vegetables</h4>
+                <p class="blog-para-2"> July 16, 2023 </p>
+                <p class="blog-para-2-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit nemo
+                    voluptatibus delectus! Amet ullam non voluptate autem! Ad et amet laboriosam Omnis alias, amet nihil
+                    dolor explicabo ea aliquam...</p>
+                <button class="blog-btn-2">Read more</button>
+            </div>
+        </div>
+    </section>
+    <!-- Blog-section-2 -->
+    <section class="blog-section-2">
+        <div class="blog-section-2-container">
+            <div class="blog-2-div-1">
+                <img src="images/blog-img-4.jpg" alt="" class="blog-img-3">
+                <h4 class="blog-head-3"> Quality Cheaking</h4>
+                <p class="blog-para-3"> July 16, 2023 </p>
+                <p class="blog-para-3-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit nemo
+                    voluptatibus delectus! Amet ullam non voluptate autem! Ad et amet laboriosam Omnis alias, amet nihil
+                    dolor explicabo ea aliquam...</p>
+                <button class="blog-btn-3">Read more</button>
+            </div>
+            <div class="blog-2-div-2">
+                <img src="images/blog-img-1.jpg" alt="" class="blog-img-4">
+                <h4 class="blog-head-4">Fresh Vegetable And Green Leaves</h4>
+                <p class="blog-para-4"> July 16, 2023 </p>
+                <p class="blog-para-4-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit nemo
+                    voluptatibus delectus! Amet ullam non voluptate autem! Ad et amet laboriosam Omnis alias, amet nihil
+                    dolor explicabo ea aliquam...</p>
+                <button class="blog-btn-4">Read more</button>
+            </div>
+        </div>
+    </section>
+    <!-- Blog-section-3  -->
+    <section class="blog-section-3">
+        <div class="blog-section-3-container">
+            <div class="blog-3-div-1">
+                <img src="images/blog-img-5.jpg" alt="" class="blog-img-5">
+                <h4 class="blog-head-5">Fresh Meat And Vegetable</h4>
+                <p class="blog-para-5"> July 16, 2023 </p>
+                <p class="blog-para-5-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit nemo
+                    voluptatibus delectus! Amet ullam non voluptate autem! Ad et amet laboriosam Omnis alias, amet nihil
+                    dolor explicabo ea aliquam...</p>
+                <button class="blog-btn-5">Read more</button>
+            </div>
+            <div class="blog-3-div-2">
+                <img src="images/blog-img-6.jpg" alt="" class="blog-img-6">
+                <h4 class="blog-head-6">Fresh Vegetable Juice</h4>
+                <p class="blog-para-6"> July 16, 2023 </p>
+                <p class="blog-para-6-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit nemo
+                    voluptatibus delectus! Amet ullam non voluptate autem! Ad et amet laboriosam Omnis alias, amet nihil
+                    dolor explicabo ea aliquam...</p>
+                <button class="blog-btn-6">Read more</button>
+            </div>
+        </div>
+    </section>
+      <!-- Brand-partner -->
+    <section class="brand-partners">
+        <h4 class="partner-head">OUR PARTNERS</h4>
+        <div class="brand-partners-container">
+            <div class="brand-paertner-div-1">
+                <img src="images/brand-partner-img-1.png" alt="" class="brand-img-1">
+            </div>
+            <div class="brand-paertner-div-2">
+                <img src="images/brand-partner-img-2.png" alt="" class="brand-img-2">
+            </div>
+            <div class="brand-paertner-div-3">
+                <img src="images/brand-partner-img-5.png" alt="" class="brand-img-3">
+            </div>
+            <div class="brand-paertner-div-4">
+                <img src="images/brandpartner-img-3.png" alt="" class="brand-img-4">
+            </div>
+            <div class="brand-paertner-div-5">
+                <img src="images/brand-partner-img-4.png" alt="" class="brand-img-5">
+            </div>
+            <div class="brand-paertner-div-6">
+                <img src="images/brand-partner-img-6.png" alt="" class="brand-img-6">
+            </div>
+    </section>
+     <!-- Newsletter Section -->
+     <section class="news-letter">
+        <div class="news-letter-div">
+            <h4 class="news-head">Subscribe our newsletter and <br>get discount 25% off</h4>
+            <p class="news-para">Join our email subscription now to get updates <br>on promotions and coupons.</p>
+            <form action="">
+                <input type="email" name="" id="form-email" placeholder="Enter your email...">
+                <button class="news-letter-btn">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-section -->
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-div-1">
+                <img src="images/logo.avif" alt="" class="footer-logo">
+                <div class="footer-contact-div-1">
+                    <div class="footer-contact-Head"><i class="fa-solid fa-house-user home-icon fa-icon"></i> Address :
+                    </div>
+                    <div class="footer-contact-head-1">M-259, Sukant Nagar, Sector IV, Bidhannagar, Kolkata, <br>West
+                        Bengal
+                        700098</div>
+                </div>
+
+                <!-- <div class="footer-contact-div-2">
+                    <div class="footer-contact-Head"><i class="fa-solid fa-phone phone-icon fa-icon"></i> Phone :</div>
+                    <div class="footer-contact-head-2"><br>(+20) 220 145 6589, +91 12345-67890 </div>
+                </div> -->
+
+                <div class="footer-contact-div-3">
+                    <div class="footer-contact-Head"><i class="fa-solid fa-envelope email-icon fa-icon "></i>Email :
+                    </div>
+                    <div class="footer-contact-head-3">
+                        support@example.com
+                    </div>
+                </div>
+                <div class="footer-contact-div-4">
+                    <div class="footer-contact-Head"><i class="fa-solid fa-globe web-icon fa-icon "></i>Website : </div>
+                    <div class="footer-contact-head-4"> www.grocery-store.com</div>
+                </div>
+                <div class="footer-contact-div-5">
+                    <i class="fa-brands fa-facebook fb-icon"></i>
+                    <i class="fa-brands fa-twitter twitter-icon"></i>
+                    <i class="fa-brands fa-instagram insta-icon"></i>
+                    <i class="fa-brands fa-linkedin linkedin-icon"></i>
+                </div>
+
+            </div>
+            <div class="footer-div-2">
+                <h4 class="footer-head-2">
+                    Information
+                </h4>
+                <li class="foot-li-1"><a href="#"> Search Terms </a></li>
+                <li class="foot-li-a"><a href="#"> Advanced Search </a></li>
+                <li class="foot-li-a"><a href="#"> Help & FAQ's</a></li>
+                <li class="foot-li-a"><a href="#">Store Location </a></li>
+                <li class="foot-li-a"><a href="#">Orders & Returns </a></li>
+
+            </div>
+            <div class="footer-div-3">
+                <h4 class="footer-head-3">
+                    Support
+                </h4>
+                <li class="foot-li-2"><a href="#"> Search Terms </a></li>
+                <li class="foot-2-li-a"><a href="#"> Advanced Search </a></li>
+                <li class="foot-2-li-a"><a href="#"> Help & FAQ's</a></li>
+                <li class="foot-2-li-a"><a href="#">Store Location </a></li>
+                <li class="foot-2-li-a"><a href="#">Orders & Returns </a></li>
+            </div>
+            <div class="footer-div-4">
+                <h4 class="footer-head-4">
+                    Help
+                </h4>
+                <li class="foot-li-3"><a href="#"> Search Terms </a></li>
+                <li class="foot-3-li-a"><a href="#"> Advanced Search </a></li>
+                <li class="foot-3-li-a"><a href="#"> Help & FAQ's</a></li>
+                <li class="foot-3-li-a"><a href="#">Store Location </a></li>
+                <li class="foot-3-li-a"><a href="#">Orders & Returns </a></li>
+            </div>
+        </div>
+    </section>
+      
+    
+</body>
+</html>
